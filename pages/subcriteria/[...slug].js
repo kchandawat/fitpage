@@ -17,7 +17,7 @@ export default function SubCriteria(props) {
         {renderData.type == "value" ? (
           Object.entries(rendervalues).map((value, key) => {
             return (
-              <Flex flexDir="column" p="10px" w="xl">
+              <Flex flexDir="column" p="10px" w="xl" key={key}>
                 <Text color="white">{value[1]}</Text>
                 <hr />
               </Flex>

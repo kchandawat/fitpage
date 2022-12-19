@@ -7,9 +7,8 @@ export default function List(props) {
   return (
     <Flex flexDir="column" backgroundColor="black" py="5vh" px="5vw">
       {data.map((value, key) => (
-        <div>
+        <div key={key}>
           <Segment
-            key={key}
             id={key}
             title={value.name}
             subtitle={value.tag}

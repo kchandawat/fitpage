@@ -18,10 +18,9 @@ export default function Criteria(props) {
         </Flex>
         <Flex flexDir="column" py="2vh">
           {data?.criteria.map((value, key) => (
-            <div>
+            <div key={key}>
               <Subcriteria
                 textColor="white"
-                key={key}
                 id={key}
                 slug={slug}
                 variable={value.variable}
