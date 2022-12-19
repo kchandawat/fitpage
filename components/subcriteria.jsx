@@ -4,7 +4,7 @@ import reactStringReplace from "react-string-replace";
 
 export default function SubCriteria(props) {
   return (
-    <Text>
+    <Text textColor="white">
       {" "}
       {props.type == "variable"
         ? reactStringReplace(props.line, /([$]+[0-9]+)/g, (match, i) =>

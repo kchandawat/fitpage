@@ -3,7 +3,7 @@ import Segment from "./segment";
 
 export default function List(props) {
   const data = props.data;
-  console.log(data);
+
   return (
     <Flex flexDir="column" backgroundColor="black" py="5vh" px="5vw">
       {data.map((value, key) => (

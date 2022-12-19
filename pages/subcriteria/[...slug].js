@@ -42,7 +42,7 @@ export default function SubCriteria(props) {
             </Flex>
           </Flex>
         ) : (
-          <Heading color="white">404 not found</Heading>
+          <Heading color="white">LOADING...</Heading>
         )}
       </Flex>
     </Flex>

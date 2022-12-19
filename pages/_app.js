@@ -56,9 +56,19 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <link rel="apple-touch-icon" sizes="300x300" href="/logo.png" />
-        <link rel="icon" type="image/png" sizes="300x300" href="/logo.png" />
-        <link rel="icon" type="image/png" sizes="300x300" href="/logo.png" />
+        <link rel="apple-touch-icon" sizes="300x300" href="/favicon.jpeg" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="300x300"
+          href="/favicon.jpeg"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="300x300"
+          href="/favicon.jpeg"
+        />
 
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />

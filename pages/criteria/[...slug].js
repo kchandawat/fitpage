@@ -19,6 +19,13 @@ export default function Criteria(props) {
         <Flex flexDir="column" py="2vh">
           {data?.criteria.map((value, key) => (
             <div key={key}>
+              {key !== 0 ? (
+                <Text textColor="white" fontSize="8px">
+                  and
+                </Text>
+              ) : (
+                <div />
+              )}
               <Subcriteria
                 textColor="white"
                 id={key}
@@ -27,9 +34,6 @@ export default function Criteria(props) {
                 type={value.type}
                 line={value.text}
               />
-              <Text textColor="white" fontSize="8px">
-                and
-              </Text>
             </div>
           ))}
         </Flex>
